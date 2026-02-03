@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>VAPE SHOP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="age-check">
+  <div class="age-box">
+    <h2>18+</h2>
+    <p>Сайт предназначен только для лиц старше 18 лет</p>
+    <button onclick="acceptAge()">Мне есть 18</button>
+  </div>
+</div>
+
+<header>
+  <h1>KRAKEN SHOP</h1>
+  <p>Жидкости • POD • Одноразки</p>
+  <a href="#contact" class="btn">Связаться</a>
+</header>
+
+<section>
+  <h2>О магазине</h2>
+  <p>
+    Оригинальная продукция, помощь с выбором, честные цены.
+  </p>
+</section>
+
+<section>
+  <h2>Почему мы</h2>
+  <ul>
+    <li>✔ Только оригинал</li>
+    <li>✔ Консультации</li>
+    <li>✔ Новинки каждую неделю</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Контакты</h2>
+  <p>Telegram: @KRAKEN_low</p>
+</section>
+
+<footer>
+  <p>© 2026 VAPE SHOP</p>
+</footer>
+
+<script>
+  function acceptAge() {
+    document.querySelector('.age-check').style.display = 'none';
+  }
+</script>
+
+</body>
+</html>
